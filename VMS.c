@@ -16,7 +16,7 @@ struct voter{
     int status;
     int DOB;
     char area;
-}v[];
+}v[5000];
 //Declaration of Candidate
 struct candidate{
     int id;
@@ -27,4 +27,27 @@ struct candidate{
     char area;
     int DOB;
 }c[700];
+
+//main Code
+
+int main(){
+login();
+}
+
+int login(){
+printf("====================================\n");
+printf("WELCOME TO VOTING MANAGEMENT SYSYEM (VMS)");
+}
+
+int admin(){
+	
+}
+
+int Eofficer(){
+	
+}
+
+int voter(){
+	
+}
 
